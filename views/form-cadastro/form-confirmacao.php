@@ -1,0 +1,1 @@
+<p>Contato <?= $contato->nome ?> deletado com sucesso!</p>
