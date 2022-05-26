@@ -14,6 +14,7 @@ use yii\bootstrap4\Html;
 <?= $form->field($model, 'nome') ?>
 <?= $form->field($model, 'email') ?>
 <?= $form->field($model, 'cidade') ?>
+<?= $form->field($model, 'estado') ?>
 
 <!-- cria um botao na tela -->
 <div class="form-group">

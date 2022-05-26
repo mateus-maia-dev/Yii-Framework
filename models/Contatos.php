@@ -6,6 +6,8 @@ use yii\db\ActiveRecord;
 
 class Contatos extends ActiveRecord
 {
+    // public $novo_nome;
+
     // atribuição de nome da tabela
     public static function tableName()
     {
@@ -17,6 +19,7 @@ class Contatos extends ActiveRecord
     {
         return [
             [['nome', 'email'], 'required'],
+            // [['novo_nome'], 'safe'],
             [['nome', 'email', 'cidade', 'estado'], 'string', 'max' => 100]
         ];
     }
